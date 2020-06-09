@@ -1,0 +1,409 @@
+	/*body*/
+*{
+padding: 0px;
+margin: 0px;	
+}
+
+body{
+overflow-y:scroll;
+}
+/*parte superior do logotipo*/
+
+.container-box{
+
+scroll-behavior: smooth;
+}
+
+section{
+	scroll-snap-align:center;
+}
+.superior{
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+	background-color:#fff;
+
+}
+
+.Logotipo img{
+	padding-bottom: 10px;
+	margin-left: 150px;
+	height: 80px;	
+
+}
+
+.endereco{
+	margin-left: 130px;
+	margin-top: 10px;
+	border-left:3px solid rgb(255,201,14);
+}
+.endereco h6{
+	font-size: 14px;
+	padding-left: 2px;
+}
+
+.f-color{
+	margin-left: 2px;
+	color: rgb(255,201,14) !important;
+}
+
+.superior-right img{
+	margin: 6px;
+	padding:2px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid rgb(255,201,14);
+}
+
+	/*imagem principal*/
+.imagem-focus img{
+	/*line-height: 100px;*/
+	padding-top:80px;
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.imagem-focus .opacity{
+	background-color: rgb(0,0,0,0.8);
+	top: 12%;
+	width: 100%;
+	height: 85%;
+	position: absolute;
+}
+
+.opacity .contexto-central h1{
+ 	margin-top:30%;
+	color: #fff;
+	padding-left: 30px;
+	text-transform: uppercase;
+
+}
+.opacity .contexto-central h1:nth-child(2){
+	margin-top:0%;
+	color: #fff;
+	padding-left: 30px;
+	text-transform: uppercase;
+}
+
+.f-dash{
+	border-bottom: 3px solid rgb(255,201,14);
+}
+/*fim da parte centrar*/
+
+/*inicio da section do meio corpo*/
+.contexto-corpo{
+	display: block;
+	margin-top: -15px;
+	width: 100%;
+	height: auto;
+	z-index: 98px;
+	background-color:#fff;
+	position: relative;
+}
+
+.corpo-h6{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.f-corpo-lateral{
+	background-color: rgb(255,201,14);
+	margin-top: -60px;
+	padding: 30px;
+}
+
+.f-corpo-lateral h6{
+	font-size: 32px;
+}
+.f-corpo-lateral h6:nth-child(2){ 
+	padding: 10px;
+	font-size: 20px;
+}
+/*fim da section do meio corpo*/
+
+
+/*inicio da section de servicos*/
+.servicos{
+	margin-top: 40px;
+}
+
+.servico-fa{
+	color: rgb(255,201,14);
+	font-size: 100px;
+	margin:40px;
+	margin-bottom: 0px !important;
+}
+
+.servico-dotted{
+	border-left: 3px dotted #ccc;
+}
+
+.servico-dotted h6{
+	margin-left: 35px;
+}
+.servico-no-dotted h6{
+	margin-left: 35px;
+}
+
+.servicos .servico-dotted a{
+	color: #000;
+	text-decoration: none;	
+}
+
+.servicos .servico-no-dotted  a{
+	color: #000;
+	text-decoration: none;
+}
+
+.servicos a:hover{
+	color: rgb(255,201,14);
+	
+}
+
+.f-corpo-h6{
+	font-size: 30px;
+}
+
+ .corpo-h5{
+	font-size: 20px;
+}
+
+
+
+.sobre-descontos{
+	margin-top: -60px;
+}
+
+.sobre-descontos h6{
+	font-size:20px;	
+	margin-top: -80px;
+	margin-left: 50px;
+}
+
+.sobre-descontos h5{
+	font-size:20px;	
+	margin-top: -125px;
+	margin-left: 50px;
+}
+
+.sobre-descontos h4{
+	font-size:20px;		
+	margin-top: -115px;
+	margin-left: 50px;	
+}
+
+.sobre-descontos .btn{
+	display: block;
+	margin-top:230px !important;
+	box-shadow: none;
+	border-style: none;
+	color: #fff;
+	width: 100%;
+	visibility: hidden;
+
+
+}
+
+.row .sobre-descontos a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.row .sobre-descontos a:hover{
+	color:rgb(255,201,14);
+	text-decoration: none;
+}
+
+
+/*fim da section de servicos*/
+
+/*inicio da section sobre nos*/
+.corpo-sobre{
+	margin:40px 0px;
+	margin-left: 55px;
+}
+
+.corpo-sobre-pontos{
+	margin-top: 12px;
+}
+/*fim da section sobre nos*/
+/*inicio do footer*/
+
+.footer{
+	
+	background-color: #6A6969;
+}
+.footer-dow .container{
+	padding: 40px 0px;
+
+}
+
+/*Redes sociais*/
+.redes-icones .footer-f{
+	transition: 0.5s;
+	font-size: 60px;
+	margin-left: 20px;
+}
+
+.redes-icones .footer-f:hover{
+	transform: translateY(-10px);
+}
+/*fim das redes sociais*/
+.footer-dow .container h3{
+	color: rgb(255,201,14);
+	font-size: 20px;
+}
+
+.footer-box img{
+	margin-top: -8px;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.footer-logo{
+	font-size: 20px;
+	color: rgb(255,201,14);
+	
+}
+
+.footer-dow .container a{
+	color: #fff;
+	text-decoration:none;
+
+}
+
+.footer-dow .container a:hover{
+	color:rgb(255,201,14);
+	text-decoration:none;
+
+}
+
+ .footer-box .footer-fa {
+	visibility: hidden;	
+}
+
+ .footer-box a:hover .footer-fa {
+	visibility: visible;	
+}
+
+.footer .breadcrumb{
+	background-color: #333;
+	color: #fff;
+	margin-bottom: 0px;
+	border-radius: 0px;
+
+}
+
+.footer .breadcrumb h3{
+	font-size: 15px;
+	margin-bottom: 0px; 
+}
+.footer .breadcrumb a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer .breadcrumb a:hover{
+
+	color:#6A6969;
+}
+	
+
+
+/*fim do footer*/
+
+/*Apresentações de forma responsiva*/
+@media(max-width:767px){
+
+	.corpo-h6, .corpo-h5{
+		text-align: center;
+	}
+
+	.superior-right{
+		display: none;
+		visibility: hidden;	
+	}
+	.servico-fa{
+		visibility: hidden;
+		margin: 0px;
+	}
+	.servico-no-dotted{
+		margin:0px;
+		text-align: center;
+	}
+	.servico-dotted{
+		margin:0px;
+		text-align: center;
+	}
+
+
+	.endereco{
+		display: none;
+		visibility: hidden;
+		font-size: 10px;
+	}
+
+	.f-corpo-lateral{
+		margin-top:0px;
+	}
+
+	.corpo-sobre-pontos{
+		font-size:15px ;
+	}
+
+	.sobre-descontos{
+	margin-top: 20px;
+}
+
+.row .col-md-5 .sobre-descontos h4{
+	visibility: hidden;
+}
+
+.sobre-descontos .btn{
+	visibility: visible;
+	margin-top: 5px;
+}
+
+.sobre-descontos h6,h5,h4{
+	visibility: hidden;
+}
+
+}
+
+@media (min-width: 767px) and (max-width: 1200px) { 
+	body{
+	overflow:hidden;
+	}
+	.f-corpo-lateral h6{
+		font-size:15px;
+	}
+	.endereco{
+		display: none;
+		visibility: hidden;
+		font-size: 10px;
+	}
+
+	.f-corpo-lateral h6:nth-child(2){
+		font-size:12px;
+		text-align: left !important;
+	}
+
+.sobre-descontos img{
+	margin-left: 30px;
+}
+
+	.sobre-descontos .btn{
+		visibility: visible;
+		margin-left: 30px;
+		margin-top: 5px;
+}
+
+.sobre-descontos h6,h5,h4{
+	visibility: hidden;
+}
+
+}
+
